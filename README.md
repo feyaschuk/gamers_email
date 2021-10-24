@@ -51,8 +51,9 @@ python3 manage.py runserver
 ```
 #### Полученный ответ:
 Если email есть в базе игры и в базе ESP:
+
 ![image](https://user-images.githubusercontent.com/81573309/138612611-0bf4f88d-b053-4612-a05e-4d91468151df.png)
 
 Если email нет в базе игры и нет в базе ESP:
-![image](https://user-images.githubusercontent.com/81573309/138612586-4aa38d18-f1da-406d-adc2-4439be9fa14a.png)
 
+![image](https://user-images.githubusercontent.com/81573309/138612688-75e9a915-35bc-419c-81df-5eb7e8145191.png)
