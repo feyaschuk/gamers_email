@@ -14,7 +14,7 @@ sqlparse==0.4.1
 Клонировать репозиторий и перейти в него в командной строке:
 ```
 git clone https://github.com/feyaschuk/gamers_email.git
-cd api_yamdb
+cd gamers_email
 ```
 Cоздать и активировать виртуальное окружение:
 ```
