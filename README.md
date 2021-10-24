@@ -4,10 +4,10 @@
 * Позволяет залить в базу данные e-mail из файла csv.
 
 ### Используемые технологии:
-Django==3.2.8
-djangorestframework==3.12.4
-requests==2.26.0
-sqlparse==0.4.1
+* Django==3.2.8
+* djangorestframework==3.12.4
+* requests==2.26.0
+* sqlparse==0.4.1
 
 ### Как запустить проект:
 
