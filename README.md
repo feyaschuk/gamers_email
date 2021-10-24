@@ -38,23 +38,21 @@ python manage.py csv_to_sql
 ```
 python3 manage.py runserver
 ```
-### Примеры использования:
-Доступен только POST-запрос по адресу: http://127.0.0.1:8000/game/v1/email/
+### Примеры запросов:
 
+#### POST запрос на отправку email пользователя:
+```
+/api/v1/email/
+```
+```
 {
     "email": "b@mail.ru"
 }
+```
+#### Полученный ответ:
+Если email есть в базе игры и в базе ESP:
+![image](https://user-images.githubusercontent.com/81573309/138612611-0bf4f88d-b053-4612-a05e-4d91468151df.png)
 
-![image](https://user-images.githubusercontent.com/81573309/138612301-c9f26773-4d5e-46e9-962d-e4cfbbd4b9ff.png)
+Если email нет в базе игры и нет в базе ESP:
+![image](https://user-images.githubusercontent.com/81573309/138612586-4aa38d18-f1da-406d-adc2-4439be9fa14a.png)
 
-
-
-![image](https://user-images.githubusercontent.com/81573309/138612334-e9739c28-5e02-405b-96b4-a2be04d725b6.png)
-
-
-
-
-
-
-
-Клонировать репозиторий и перейти в него в командной строке:
