@@ -1,9 +1,10 @@
 import abc
 
-class ESP(abc.ABC):   
+
+class ESP(abc.ABC):
 
     @abc.abstractmethod
-    def add_email(self, email):       
+    def add_email(self, email):
         pass
 
     @abc.abstractmethod
@@ -11,17 +12,17 @@ class ESP(abc.ABC):
         pass
 
     @abc.abstractmethod
-    def check_email(self, email):        
+    def check_email(self, email):
         pass
 
     @abc.abstractmethod
-    def delete_email(self, email):        
+    def delete_email(self, email):
         pass
 
     @abc.abstractmethod
-    def delete_emails_list(self, emails_list):        
+    def delete_emails_list(self, emails_list):
         pass
 
     @abc.abstractmethod
-    def sendmail(self, message):        
+    def sendmail(self, message):
         pass
