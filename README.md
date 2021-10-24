@@ -13,7 +13,7 @@ sqlparse==0.4.1
 
 Клонировать репозиторий и перейти в него в командной строке:
 ```
-git clone https://github.com/feyaschuk/notes.git
+git clone https://github.com/feyaschuk/gamers_email.git
 cd api_yamdb
 ```
 Cоздать и активировать виртуальное окружение:
@@ -30,9 +30,10 @@ pip install -r requirements.txt
 ```
 python3 manage.py migrate
 ```
-Загрузить тестовую базу email(в папке static файл email.сsv, можно заменить на другой):
+Загрузить тестовую базу email (в папке static файл email.сsv, можно заменить на другой):
 ```
 python manage.py csv_to_sql
+```
 Запустить проект:
 ```
 python3 manage.py runserver
