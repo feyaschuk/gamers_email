@@ -7,7 +7,7 @@ from rest_framework.response import Response
 
 from .models import Game
 from .serializers import  GameSerializer
-from esp.views import ESP
+from esp.views_moc import ESP
 
 
 esp = ESP()
